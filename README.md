@@ -131,7 +131,7 @@ License: Research use only – contact the author for usage permissions.
 
 ## 🙏 Acknowledgments
 
-Special thanks to Ing. Mauro Minervino (CIRA) for his guidance and technical insights, and to Prof. Renato Tognaccini for scientific supervision and support throughout the development.
+Special thanks to Dr. Mauro Minervino (CIRA) for his guidance and technical insights, and to Prof. Renato Tognaccini for scientific supervision and support throughout the development.
 
 ---
 
