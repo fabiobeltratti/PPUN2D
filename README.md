@@ -49,7 +49,7 @@ Compute the aerodynamic force through integration of the net momentum flux on a 
 - **Paparone & Tognaccini method** → computes the irreversible drag as a function of the non-dimensional entropy.
 - **Destarac & van der Vooren method** → computes the irreversible drag as a function of both entropy and total enthalpy.
 - **Vorticity-based Lamb vector method**, where $\ell = \omega \times V$ → computes both lift and drag.
-- **Thermodynamic-based Lamb vector method**, where  $\ell = T \cdot \nabla s − \nabla H + \nabla \cdot \underline{\underline{\tau_v}} / \rho$ → computes lift and drag with reduced numerical sensitivity.
+- **Thermodynamic-based Lamb vector method**, where  $\ell = T \nabla s − \nabla H + \nabla \cdot \underline{\underline{\tau_v}} / \rho$ → computes lift and drag with reduced numerical sensitivity.
 
 ### Irreversible and parasite drag breakdown
 PPUN2D supports detailed domain decomposition to isolate the sources of drag:
