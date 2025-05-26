@@ -43,7 +43,7 @@ Computes the aerodynamic force through surface integration of pressure and visco
 - Although often provided by the CFD solver, it is recalculated here to ensure consistent comparison with the implemented far-field methods.
 
 ### Far-field methods
-Computes the aerodynamic force through integration of the net momentum flux on a control volume surrounding the body. These methods allow decomposition into physical and spurious contributions. The following formulations are implemented:
+Compute the aerodynamic force through integration of the net momentum flux on a control volume surrounding the body. These methods allow decomposition into physical and spurious contributions. The following formulations are implemented:
 - **Paparone & Tognaccini method** → computes the irreversible drag as a function of the non-dimensional entropy.
 - **Destarac & van der Vooren method** → computes the irreversible drag as a function of both entropy and total enthalpy.
 - **Vorticity-based Lamb vector method**, where `l = ω × V` → computes both lift and drag.
