@@ -83,7 +83,7 @@ PPUN2D supports detailed domain decomposition to isolate the sources of drag:
 - Compatible with Tecplot 360 for visualization.
 
 - `forces_summary.txt`: structured table including:
-- Lift and drag coefficientsm.
+- Lift and drag coefficients.
 - Near-field and far-field results.
 - Drag-breakdown by region (viscous, shock, spurious).
 - Results for all evaluated wake-plane locations.
