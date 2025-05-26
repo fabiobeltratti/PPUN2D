@@ -1,6 +1,8 @@
 # **PPUN2D** – Post-Processing Tool for Unstructured 2D CFD Solutions
 
-**PPUN2D** (*Post-Processing Unstructured 2D Data*) is a C++ software developed for the aerodynamic force computation and drag decomposition from CFD solutions on **unstructured 2D grids**. It supports both **near-field** and **far-field** approaches and includes Green-Gauss gradient reconstruction and domain decomposition techniques. The software is intended for academic and research purposes.
+**PPUN2D** (*Post-Processing Unstructured 2D Data*) is a C++ software developed for the aerodynamic force computation and drag decomposition from CFD solutions on **unstructured 2D grids**. The code originates from the structure and methodology of *UBF2D*, a structured-grid code developed by Dr. Mauro Minervino (CIRA) and by the University of Naples "Federico II" (https://github.com/m-minervino/UBF2D).
+It supports both **near-field** and **far-field** approaches and includes Green-Gauss gradient reconstruction and domain decomposition techniques. 
+The software is intended for academic and research purposes.
 
 > Developed at the *Italian Aerospace Research Centre (CIRA)*, in collaboration with the *University of Naples Federico II* as part of a master's thesis project.
 
@@ -24,7 +26,7 @@ Results are exported in both **Tecplot** and **plain-text** formats for visualiz
 
 - **Tecplot `.szplt` file** containing:
   - Primitive variables: `ρ`, `u`, `v`, `p`, `T`.
-  - Optional turbulence fields: `μ_t`, `ω`.
+  - Optional turbulence fields: `$\mu_t$`, `ω`.
   - Mesh connectivity and coordinates.
 
 - **Configuration file** (`ppun2d_config.cas`) with:
@@ -47,7 +49,7 @@ Compute the aerodynamic force through integration of the net momentum flux on a 
 - **Paparone & Tognaccini method** → computes the irreversible drag as a function of the non-dimensional entropy.
 - **Destarac & van der Vooren method** → computes the irreversible drag as a function of both entropy and total enthalpy.
 - **Vorticity-based Lamb vector method**, where `l = ω × V` → computes both lift and drag.
-- **Thermodynamic-based Lamb vector method**, where `l = T∇s − ∇h + ∇⋅τ/ρ` → computes lift and drag with reduced numerical sensitivity.
+- **Thermodynamic-based Lamb vector method**, where `l = T∇s − ∇H + ∇⋅τ/ρ` → computes lift and drag with reduced numerical sensitivity.
 
 ### Irreversible and parasite drag breakdown
 PPUN2D supports detailed domain decomposition to isolate the sources of drag:
