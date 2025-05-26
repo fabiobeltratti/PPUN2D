@@ -25,8 +25,8 @@ Results are exported in both **Tecplot** and **plain-text** formats for visualiz
 ## 📦 Input Requirements
 
 - **Tecplot `.szplt` file** containing:
-  - Primitive variables: `ρ`, `u`, `v`, `p`, `T`.
-  - Optional turbulence fields: `$\mu_t$`, `ω`.
+  - Primitive variables: $\rho$, $u$, $v$, $p$, $T$.
+  - Optional turbulence fields: $\mu_t$, $\omega$.
   - Mesh connectivity and coordinates.
 
 - **Configuration file** (`ppun2d_config.cas`) with:
@@ -48,8 +48,8 @@ Computes the aerodynamic force through surface integration of pressure and visco
 Compute the aerodynamic force through integration of the net momentum flux on a control volume surrounding the body. These methods allow decomposition into physical and spurious contributions. The following formulations are implemented:
 - **Paparone & Tognaccini method** → computes the irreversible drag as a function of the non-dimensional entropy.
 - **Destarac & van der Vooren method** → computes the irreversible drag as a function of both entropy and total enthalpy.
-- **Vorticity-based Lamb vector method**, where `l = ω × V` → computes both lift and drag.
-- **Thermodynamic-based Lamb vector method**, where `l = T∇s − ∇H + ∇⋅τ/ρ` → computes lift and drag with reduced numerical sensitivity.
+- **Vorticity-based Lamb vector method**, where $\bm{\ell} = \bm{\omega} \times \bm{V}$ → computes both lift and drag.
+- **Thermodynamic-based Lamb vector method**, where  $\bm{\ell} = T \cdot \bm{nabla} s − \bm{nabla} H + \bm{nabla} \cdot \underline{\underline{\tau_v}} / \rho$ → computes lift and drag with reduced numerical sensitivity.
 
 ### Irreversible and parasite drag breakdown
 PPUN2D supports detailed domain decomposition to isolate the sources of drag:
