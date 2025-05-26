@@ -108,7 +108,7 @@ Lamb vector-based methods:
 - Minervino, M. & Tognaccini, R., A unified thermodynamic/Lamb-vector-based analysis of the aerodynamic force, Physics of Fluids, 2023. DOI: 10.1063/5.0164384
 - Minervino, M. & Tognaccini, R., On the spurious effects in Lamb-vector-based force decomposition methods, Aerospace Science and Technology, 2023. DOI: 10.1016/j.ast.2023.108674
 - Wu, J.-Z., Lu, X.-Y., & Zhuang, L.-X., Integral force acting on a body due to local flow structures, Journal of Fluid Mechanics, Vol. 576, 2007, pp. 265–286. DOI: 10.1017/S0022112006004551
-- - Mele, B. & Tognaccini, R., Aerodynamic force by Lamb vector integrals in compressible flow, Physics of Fluids, Vol. 26, No. 5, 2014, p. 056104. DOI: 10.1063/1.4875015
+- Mele, B. & Tognaccini, R., Aerodynamic force by Lamb vector integrals in compressible flow, Physics of Fluids, Vol. 26, No. 5, 2014, p. 056104. DOI: 10.1063/1.4875015
 
 Thermodynamic formulations:
 - Paparone, L. & Tognaccini, R., Computational Fluid Dynamics-Based Drag Prediction and Decomposition, AIAA Journal, Vol. 41, No. 9, 2003, pp. 1647–1657. DOI: 10.2514/2.7300
