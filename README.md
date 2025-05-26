@@ -140,7 +140,7 @@ git clone https://github.com/your-username/PPUN2D.git
 cd PPUN2D
 
 # Compile with Intel compiler (icc)
-icc -std=c++17 -O3 -o ppun2d main.cpp -I/path/to/tecio/include -L/path/to/tecio/lib -ltecio
+icc -std=c++11 -o PPUN2D PPUN2D.cpp /path/to/tecio/libtecio.so
 
 # Run the executable with the following syntax:
 # ./ppun2d <input_solution.szplt> <config_file.cas> <output_file.szplt>
